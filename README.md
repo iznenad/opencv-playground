@@ -1,3 +1,3 @@
 # opencv-playground
 
-Just my personal learning playground while reading the book "Open CV computer vision with Python"
+Just my personal learning playground while reading the book "OpenCV computer vision with Python"

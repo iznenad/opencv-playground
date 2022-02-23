@@ -14,7 +14,7 @@ directory = r'/Users/iznenad/dev/opencv'
   
 # Using cv2.imread() method
 # to read the image
-img = cv2.imread(image_path)
+img = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
   
 # Change the current directory 
 # to specified directory 

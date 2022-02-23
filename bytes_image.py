@@ -9,8 +9,8 @@ flatNumpyArray = numpy.array(randomByteArray)
 
 # Convert the array into 300x400 grayscale image
 grayimage = flatNumpyArray.reshape(300, 400)
-cv2.imwrite('random-gray.png', grayimage)
+cv2.imwrite('images/random-gray.png', grayimage)
 
 # Convert the array into 300x400 rgb image
 rgbImage = flatNumpyArray.reshape(200, 200, 3) # 3 colours are the 3rd dimension?
-cv2.imwrite('random-rgb.png', rgbImage)
+cv2.imwrite('images/random-rgb.png', rgbImage)
